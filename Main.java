@@ -38,13 +38,15 @@ class Main{
         }
         cour.setQuestions(questions);
         System.out.println("-----------------");
-        for(int k=0 ; k<cour.getQuestions().size();k++){
-            System.out.println(cour.getQuestions().get(k));
 
-        }
+        
 
         
         }
+        if(role.equals("student")){
+            
+        }
+
 
     }
 }
